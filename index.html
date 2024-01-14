@@ -1,0 +1,22 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Planning System</title>
+</head>
+<body>
+    <h1>Welcome to the Meal Planning System!</h1>
+    <form action="/meal_plan" method="post">
+        <!-- Input fields for user information -->
+        <label for="weight">Weight (kg): </label>
+        <input type="text" name="weight" required><br>
+
+        <!-- Repeat similar input fields for height, age, gender, activity_level, and goal -->
+
+        <input type="submit" value="Generate Meal Plan">
+    </form>
+</body>
+</html>
